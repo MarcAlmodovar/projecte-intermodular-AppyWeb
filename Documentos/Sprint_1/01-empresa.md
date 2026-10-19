@@ -19,6 +19,8 @@ Estas aproximaciones las saco teniendo en cuenta que esta catalogada como micro 
 
 ##Appy web responde a las necesidades de las personas mediante los siguientes metodos
 
+| Metodo | Explicacion |
+|:---|:---|
 | Cercanía y análisis real |Se desplazan directamente a las instalaciones del cliente para entender sus flujos de trabajo sobre el terreno |
 | Estrategia Digital 360° |Integran el desarrollo técnico, el SEO, los anuncios y las ventas bajo un único presupuesto y un control común de resultados. |
 | Automatización con IA |Diseñan agentes virtuales y automatizaciones a medida para reducir costes operativos y eliminar tareas repetitivas. |
