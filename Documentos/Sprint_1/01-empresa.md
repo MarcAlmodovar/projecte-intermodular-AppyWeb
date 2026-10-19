@@ -9,9 +9,11 @@
 - Diseño y desarollo Web
 - Marketing digital
 
-## Esta empresa esta enfocada en empresarios que quieran automatizar sus procesos, crear software, o usar distintos servicios suyos muy utiles para empresarios.
+## A que publico esta enfocada la empresa
+Esta empresa esta enfocada en empresarios que quieran servicios informatcos como el desarrolo de un software especifico o la automatizcion de un proceso
 
-## Esta empresa solamente tiene una sede, y tiene aproximadamente 12 trabajadores.
+## Cuantos trabajadores tiene la empresa
+Esta empresa cuenta con aproximadamente 12 trabajadores, debido a el numero de trabajadores se le considera una microempresa
 
 ## Esta empresa tiene unos ingresos anuales aproximados de entre 250.000€ y 750.000€
 
