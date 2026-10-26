@@ -11,8 +11,7 @@ Este repositorio recoge la documentación del Proyecto Intermodular de 2º de SM
 ## Integrantes del equipo
 
 - Marc Almodovar Mayor
-- Nombre Apellido
-- Nombre Apellido
+- Izan Pons Pascual
 
 ## Documentación del Sprint 1
 
