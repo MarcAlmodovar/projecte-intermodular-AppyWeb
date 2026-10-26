@@ -1,3 +1,4 @@
+# 2. Departamentos y estructura organizativa
 
 La empresa Appy Web cuenta con un equipo de 12 personas organizadas en 5 departamentos principales.
 
