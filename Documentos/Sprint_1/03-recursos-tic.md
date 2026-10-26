@@ -1,29 +1,34 @@
 # 3. Identificación de los recursos TIC
 
-Para poder ofrecer servicios digitales avanzados, como integraciones de IA o programación de aplicaciones, la infraestructura TIC de Appy Web debe ser moderna, escalable y fiable.
+Appy Web se dedica a programar webs, apps y automatizaciones con IA, así que necesita equipos potentes y una red que funcione bien. Aquí explicamos qué recursos informáticos hacen falta y por qué.
 
-### Ordenadores necesarios
-Se ha optado por una política de trabajo híbrido (oficina en Alcoy y teletrabajo), por lo que se equipará a la plantilla principalmente con ordenadores portátiles, excepto en el departamento de diseño, donde la potencia gráfica exige equipos de sobremesa específicos.
-- **Dirección:** 1 Ordenador Portátil de alta gama.
-- **Administración:** 1 Ordenador de sobremesa estándar + doble monitor (para facilitar la gestión contable).
-- **Comercial y Marketing:** 3 Ordenadores Portátiles de alta movilidad para visitar clientes y realizar presentaciones.
-- **Desarrollo e IA:** 5 Ordenadores Portátiles de alto rendimiento (procesadores avanzados y gran capacidad de memoria RAM para compilar código y virtualizar entornos) con dock-stations y 2 monitores externos cada uno en la oficina.
-- **Diseño UI/UX:** 2 Ordenadores de sobremesa (Workstations) con tarjeta gráfica dedicada y monitores de precisión de color (4K).
-- **Total Ordenadores:** 12 equipos.
+## Ordenadores por departamento
 
-### Servidores
-- **Servidor Local (NAS):** 1 Servidor NAS en la oficina central.
-  - *Función:* Almacenamiento centralizado de archivos pesados (diseño gráfico, recursos multimedia) y gestión de copias de seguridad locales automatizadas de todos los equipos.
-- **Servidores Cloud (Alojamiento en la nube):** Suscripciones a servicios en la nube (ej. AWS o Google Cloud).
-  - *Función:* Alojar los entornos de desarrollo, pruebas y producción (páginas web y Apps) de los clientes, así como mantener operativos los servicios y automatizaciones de Inteligencia Artificial que requieren disponibilidad 24/7.
+Hemos decidido que la mayoría de trabajadores tengan portátil, porque en la empresa se combina el trabajo en la oficina de Alcoy con el teletrabajo. La excepción es el departamento de diseño, que necesita ordenadores de sobremesa más potentes.
 
-### Dispositivos de red
-La oficina necesita mover grandes volúmenes de datos y garantizar una conexión segura e ininterrumpida:
-- **Router empresarial:** 1 Router con capacidad de cortafuegos (Firewall) integrado y gestión de Red Privada Virtual (VPN) para permitir el acceso seguro a los empleados que teletrabajan.
-- **Switch:** 1 Switch gestionable de 24 puertos (tecnología Gigabit/10G). Esencial para conectar los equipos de sobremesa y el servidor NAS por cable, garantizando máxima velocidad y evitando cuellos de botella.
-- **Puntos de Acceso (AP):** 2 Puntos de acceso Wi-Fi 6 instalados en el techo para proveer conectividad inalámbrica estable y rápida en la zona de trabajo común, la sala de reuniones y para dispositivos de invitados.
+- **Dirección:** 1 portátil, para poder trabajar desde la oficina o desde fuera.
+- **Administración:** 1 ordenador de sobremesa con dos monitores, porque trabaja siempre en la oficina y con dos pantallas es más fácil llevar las facturas y la contabilidad.
+- **Comercial y Marketing:** 3 portátiles ligeros, ya que tienen que ir a ver a los clientes y hacerles presentaciones.
+- **Desarrollo e IA:** 5 portátiles de alto rendimiento, con mucha memoria RAM y buen procesador, porque compilan código y usan máquinas virtuales. En la oficina cada uno tendrá una base (dock) y 2 monitores.
+- **Diseño UI/UX:** 2 ordenadores de sobremesa con tarjeta gráfica y monitores 4K, porque los programas de diseño y vídeo necesitan mucha potencia y colores precisos.
 
-### Impresoras y periféricos
-A pesar de ser una empresa digital, existen necesidades físicas mínimas:
-- **Impresora multifunción láser:** 1 Equipo de red a color ubicado en el departamento de Administración (utilizado para imprimir contratos, facturas o auditorías para clientes que prefieren formato físico).
-- **Periféricos adicionales:** 12 Kits de ratón y teclado ergonómicos. 1 Pizarra digital interactiva (o Smart TV de gran formato) instalada en la sala de reuniones para proyectar informes mensuales, esquemas web y presentaciones a los clientes locales.
+**En total son 12 ordenadores, uno por cada trabajador.**
+
+## Servidores
+
+- **1 servidor NAS en la oficina:** sirve para guardar todos los archivos de la empresa en un mismo sitio (sobre todo los de diseño, que pesan mucho) y para hacer copias de seguridad automáticas de los equipos.
+- **Servidores en la nube (AWS o Google Cloud):** no los compramos, se pagan por suscripción. Ahí se alojan las webs y apps de los clientes y los servicios de IA, que tienen que estar funcionando las 24 horas.
+
+## Dispositivos de red
+
+- **1 router empresarial con firewall y VPN:** el firewall protege la red de ataques, y la VPN permite que los que teletrabajan se conecten de forma segura a los archivos de la oficina.
+- **1 switch gestionable de 24 puertos:** para conectar por cable los ordenadores de sobremesa, las bases de los portátiles, el NAS y la impresora. Por cable va más rápido y más estable que por Wi-Fi.
+- **2 puntos de acceso Wi-Fi 6:** para dar Wi-Fi en toda la oficina, en la sala de reuniones y a los clientes que vengan de visita.
+
+## Impresoras y periféricos
+
+Aunque casi todo el trabajo es digital, hay cosas que se siguen imprimiendo.
+
+- **1 impresora multifunción láser a color en red:** estará en Administración y la podrá usar todo el mundo. Se usa para contratos, facturas y algunos informes que los clientes prefieren en papel.
+- **12 teclados y ratones:** uno para cada trabajador.
+- **1 pantalla grande o Smart TV en la sala de reuniones:** para enseñar a los clientes las webs, las presentaciones y los informes.
