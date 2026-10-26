@@ -19,4 +19,4 @@ Este repositorio recoge la documentación del Proyecto Intermodular de 2º de SM
 2. [Departamentos y estructura organizativa](Documentos/sprint_1/02-organitzacio.md)
 3. [Recursos TIC](Documentos/sprint_1/03-recursos-tic.md)
 4. [Relación de hardware y software](Documentos/sprint_1/04-maquinari-programari.md)
-5. [Contribución a los ODS](Documentos/sprint_1/05-ods.md)
+5. [Contribución a los ODS](Documentos/Sprint_1/02-organitzacio.md)
