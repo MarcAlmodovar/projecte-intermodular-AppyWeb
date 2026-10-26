@@ -1,6 +1,6 @@
 # AppyWeb
 
-![Logo de AppyWeb](img/logo.png)
+![Logo de AppyWeb](img/images.jpeg)
 
 ## Presentación del proyecto
 
