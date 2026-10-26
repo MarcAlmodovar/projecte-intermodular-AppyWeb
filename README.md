@@ -4,7 +4,7 @@
 
 ## Presentación del proyecto
 
-AppyWeb es una empresa ficticia de Alcoy dedicada al desarrollo de software, inteligencia artificial, diseño web y marketing digital para empresas y autónomos.
+AppyWeb es una empresa real de Alcoy dedicada al desarrollo de software, inteligencia artificial, diseño web y marketing digital para empresas y autónomos.
 
 Este repositorio recoge la documentación del Proyecto Intermodular de 2º de SMX, donde definimos la empresa, su organización y los recursos informáticos que necesita.
 
