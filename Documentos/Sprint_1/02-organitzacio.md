@@ -15,7 +15,7 @@ La empresa Appy Web cuenta con un equipo de 12 personas organizadas en 5 departa
 - **Funciones y responsabilidades del departamento:** Garantizar el funcionamiento interno de la oficina, la contabilidad y el cumplimiento legal. También se encarga de tramitar subvenciones para los clientes y de actuar como primer filtro para atender incidencias o dudas iniciales.
 - **Número de trabajadores:** 1 persona.
 - **Puestos de trabajo y funciones principales:**
-  - **Técnico/a de Administración ** Control de cobros y pagos, gestión de nóminas y contratos, atención telefónica primaria, y tramitación de documentación administrativa.
+  - **Técnico/a de Administración** Control de cobros y pagos, gestión de nóminas y contratos, atención telefónica primaria, y tramitación de documentación administrativa.
 
 ### 3. Departamento Comercial y Marketing Digital
 - **Funciones y responsabilidades del departamento:** Es el motor de ingresos. Se encarga de captar nuevos clientes, cerrar ventas y proyectos, y de ejecutar los servicios de marketing digital (SEO/SEM) que la agencia vende a sus clientes.
