@@ -18,7 +18,7 @@ El trabajo principal de Appy Web es modernizar otras empresas: desarrollamos sof
 **Medida concreta:**
 Crear un paquete de servicios pensado solo para pequeñas industrias de la comarca: primero una visita y un análisis de cómo trabajan (como ya hacemos con todos los clientes) y después la digitalización de su control de stock, sus procesos y su atención al cliente con IA. El departamento de Administración se encargaría de buscar y tramitar ayudas públicas a la digitalización para que les salga más barato.
 
-## ODS 12. Producción y consumo responsables (opcional)
+## ODS 12. Producción y consumo responsables
 
 **Relación con la empresa:**
 Para trabajar usamos 12 ordenadores, un servidor NAS, una impresora y varios equipos de red. Todo esto consume energía y, cuando se queda viejo, genera residuos electrónicos.
