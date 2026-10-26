@@ -1,6 +1,6 @@
 # 2. Departamentos y estructura organizativa
 
-La empresa Appy Web cuenta con un equipo de 12 personas organizadas en 5 departamentos principales.
+La empresa AppyWeb cuenta con un equipo de 12 personas organizadas en 5 departamentos principales.
 
 ## Descripción de departamentos y puestos de trabajo
 
@@ -37,7 +37,7 @@ La empresa Appy Web cuenta con un equipo de 12 personas organizadas en 5 departa
 - **Número de trabajadores:** 2 personas.
 - **Puestos de trabajo y funciones principales:**
   - **Diseñador/a UI/UX Web y Apps:** Crear la estructura y el aspecto visual de las pantallas de las webs y aplicaciones, priorizando que sean fáciles de usar para el cliente final.
-  - **Diseñador/a Gráfico y Multimedia:** Generar los recursos visuales, animaciones, logotipos y la identidad corporativa tanto para Appy Web como para sus clientes.
+  - **Diseñador/a Gráfico y Multimedia:** Generar los recursos visuales, animaciones, logotipos y la identidad corporativa tanto para AppyWeb como para sus clientes.
 
 ## Organigrama
 
