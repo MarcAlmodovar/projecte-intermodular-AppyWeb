@@ -6,16 +6,16 @@ La empresa Appy Web cuenta con un equipo de 12 personas organizadas en 5 departa
 
 ### 1. Dirección / Gerencia
 
-- **Funciones y responsabilidades del departamento:** Garantizar el funcionamiento interno de la oficina, la contabilidad y el cumplimiento legal. También se encarga de tramitar subvenciones para los clientes y de actuar como primer filtro para atender incidencias o dudas iniciales.
+- **Funciones y responsabilidades del departamento:** Dirigir la empresa y tomar las decisiones importantes. Fija los objetivos, aprueba los presupuestos e inversiones, coordina a los responsables de cada departamento y representa a AppyWeb ante clientes, bancos y otras empresas.
 - **Número de trabajadores:** 1 persona.
 - **Puestos de trabajo y funciones principales:**
-  - **Técnico/a de Administración:** Control de cobros y pagos, gestión de nóminas y contratos, atención telefónica primaria, y tramitación de documentación administrativa.
- 
+  - **Gerente:** Planificar la estrategia de la empresa, controlar los resultados económicos, contratar personal y cerrar los acuerdos con los clientes más importantes.
+
 ### 2. Departamento de Administración y Atención al Cliente
 - **Funciones y responsabilidades del departamento:** Garantizar el funcionamiento interno de la oficina, la contabilidad y el cumplimiento legal. También se encarga de tramitar subvenciones para los clientes y de actuar como primer filtro para atender incidencias o dudas iniciales.
 - **Número de trabajadores:** 1 persona.
 - **Puestos de trabajo y funciones principales:**
-  - **Técnico/a de Administración** Control de cobros y pagos, gestión de nóminas y contratos, atención telefónica primaria, y tramitación de documentación administrativa.
+  - **Técnico/a de Administración:** Control de cobros y pagos, gestión de nóminas y contratos, atención telefónica primaria, y tramitación de documentación administrativa.
 
 ### 3. Departamento Comercial y Marketing Digital
 - **Funciones y responsabilidades del departamento:** Es el motor de ingresos. Se encarga de captar nuevos clientes, cerrar ventas y proyectos, y de ejecutar los servicios de marketing digital (SEO/SEM) que la agencia vende a sus clientes.
@@ -38,3 +38,7 @@ La empresa Appy Web cuenta con un equipo de 12 personas organizadas en 5 departa
 - **Puestos de trabajo y funciones principales:**
   - **Diseñador/a UI/UX Web y Apps:** Crear la estructura y el aspecto visual de las pantallas de las webs y aplicaciones, priorizando que sean fáciles de usar para el cliente final.
   - **Diseñador/a Gráfico y Multimedia:** Generar los recursos visuales, animaciones, logotipos y la identidad corporativa tanto para Appy Web como para sus clientes.
+
+## Organigrama
+
+![Organigrama de AppyWeb](../../img/organigrama.png)
