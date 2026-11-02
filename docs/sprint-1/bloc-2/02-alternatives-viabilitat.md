@@ -16,3 +16,10 @@ Hemos escogido la opcion C, ya que es la mas eficiente dentro de la oficina y co
 Queriamos innovar un poco en la empresa, asi que queremos añadir estos aspectos:
 - Un asistente de IA que responda dudas de clientes mediante la informacion de la base de datos de la empresa.
 - Un Wifi 6 con red de invitados por separado.
+
+# Estudio de visibilidad
+
+- Espacio: El NAS va en el rack junto al router
+- Conocimiento: lo puede administrar el desaarrollador principal
+- Equipos: se aprovechan los de el Bloc 1
+- Presupuesto: con la opcion que hemos elegido, el precio es de unos 1000€ de NAS para no quedarnos cortos y la suscripcion de el almacenamiento en la nube, que depende de el precio puede variar.
