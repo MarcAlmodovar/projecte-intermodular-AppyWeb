@@ -1,6 +1,6 @@
 # 3. Identificación de los recursos TIC
 
-Appy Web se dedica a programar webs, apps y automatizaciones con IA, así que necesita equipos potentes y una red que funcione bien. Aquí explicamos qué recursos informáticos hacen falta y por qué.
+AppyWeb se dedica a programar webs, apps y automatizaciones con IA, así que necesita equipos potentes y una red que funcione bien. Aquí explicamos qué recursos informáticos hacen falta y por qué.
 
 ## Ordenadores por departamento
 
@@ -17,7 +17,7 @@ Hemos decidido que la mayoría de trabajadores tengan portátil, porque en la em
 ## Servidores
 
 - **1 servidor NAS en la oficina:** sirve para guardar todos los archivos de la empresa en un mismo sitio (sobre todo los de diseño, que pesan mucho) y para hacer copias de seguridad automáticas de los equipos.
-- **Servidores en la nube (AWS o Google Cloud):** no los compramos, se pagan por suscripción. Ahí se alojan las webs y apps de los clientes y los servicios de IA, que tienen que estar funcionando las 24 horas.
+- **Servidores en la nube:** no los compramos, se pagan por suscripción. Ahí se alojan las webs y apps de los clientes y los servicios de IA, que tienen que estar funcionando las 24 horas.
 
 ## Dispositivos de red
 
