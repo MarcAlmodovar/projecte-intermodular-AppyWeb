@@ -12,40 +12,40 @@ La red tiene tres zonas y todas pasan por el servidor de comunicaciones:
 
 - WAN o Internet: es la conexión de fibra del operador.
 - Red interna o LAN, 192.168.10.0/24: aquí están los ordenadores de los trabajadores, los servidores internos, el NAS y la impresora. Desde Internet no se puede entrar directamente.
-- DMZ, 192.168.50.0/24: es una zona aparte donde ponemos lo que tiene que verse desde Internet.
+- DMZ, 192.168.20.0/24: es una zona aparte donde ponemos lo que tiene que verse desde Internet.
 
-Además, la Wi-Fi de invitados va en otra red separada, la 192.168.20.0/24, para que los clientes solo tengan Internet.
+Además, la Wi-Fi de invitados va en otra red separada, la 192.168.30.0/24, para que los clientes solo tengan Internet. Los trabajadores que se conectan desde fuera usan la red VPN 10.8.0.0/24. Todas las direcciones IP y los nombres de los equipos están en el apartado 4.
 
 ## Componentes y su función
 
 | Componente | Función |
 |---|---|
 | Router/ONT del operador | Recibe la fibra. Lo dejamos en modo bridge para que quien controle la red sea nuestro servidor de comunicaciones. |
-| Servidor de comunicaciones, firewall pfSense | Es el centro de la red. Tiene tres interfaces, WAN, LAN y DMZ, y decide qué tráfico puede pasar entre ellas. También hace NAT, da la VPN a los que teletrabajan y filtra las conexiones. |
-| Servidor web en la DMZ | Aloja la web corporativa, el asistente de IA que responde a los clientes y las demos de las webs y apps que enseñamos a los clientes antes de publicarlas. |
-| Switch gestionable de 24 puertos | Conecta por cable todos los equipos de la red interna. Al ser gestionable permite crear VLAN, como la de invitados. |
-| Servidor interno | Gestiona las cuentas de usuario, el DNS y el DHCP de la red interna. |
-| NAS | Guarda los archivos compartidos de los departamentos y hace las copias de seguridad. Cada noche envía una copia cifrada a la nube, que es la solución híbrida que elegimos en el apartado 2. |
-| 2 puntos de acceso Wi-Fi 6 | Dan Wi-Fi a la oficina y a la sala de reuniones. Emiten dos redes, la de la empresa y la de invitados. |
-| Impresora multifunción | Impresora en red para toda la empresa. |
+| Servidor de comunicaciones, firewall pfSense | Es el centro de la red y la puerta de enlace de todas las redes, con la dirección .1 en cada una. Tiene tres interfaces, WAN, LAN y DMZ, y decide qué tráfico puede pasar entre ellas. También hace NAT, da la VPN a los que teletrabajan y filtra las conexiones. |
+| Servidor web APW-WEB, 192.168.20.10 | Está en la DMZ y aloja la web corporativa, el asistente de IA que responde a los clientes y las demos de las webs y apps que enseñamos a los clientes antes de publicarlas. |
+| Switch gestionable APW-SWITCH, 192.168.10.2 | Tiene 24 puertos y conecta por cable todos los equipos de la red interna. Al ser gestionable permite crear VLAN, como la de invitados. |
+| Servidor interno APW-SRV, 192.168.10.11 | Gestiona las cuentas de usuario, el DNS y el DHCP de la red interna. |
+| NAS APW-NAS, 192.168.10.10 | Guarda los archivos compartidos de los departamentos y hace las copias de seguridad. Cada noche envía una copia cifrada a la nube, que es la solución híbrida que elegimos en el apartado 2. |
+| Puntos de acceso APW-AP-01 y APW-AP-02, 192.168.10.3 y 192.168.10.4 | Son Wi-Fi 6 y dan Wi-Fi a la oficina y a la sala de reuniones. Emiten dos redes, la de la empresa y la de invitados. |
+| Impresora APW-IMPRESORA, 192.168.10.20 | Impresora multifunción en red para toda la empresa. |
 | SAI | Mantiene encendidos los servidores y el NAS si se va la luz, el tiempo justo para apagarlos bien. |
-| Ordenadores | 3 sobremesas de Administración y Diseño conectados por cable y 9 portátiles con dock para Dirección, Comercial y Desarrollo. |
+| Ordenadores | 3 sobremesas de Administración y Diseño conectados por cable y 9 portátiles con dock para Dirección, Comercial y Desarrollo. Cada departamento tiene su propio bloque de IPs a partir de la 192.168.10.101. |
 
 ## Conexiones
 
 - La fibra llega al router del operador y de ahí va al puerto WAN del servidor de comunicaciones.
 - El puerto DMZ del servidor de comunicaciones va directo al servidor web.
 - El puerto LAN va al switch, y del switch salen los cables a todos los equipos de la oficina y a los dos puntos de acceso.
-- Los trabajadores que están fuera se conectan por VPN a través de Internet y entran a la red interna como si estuvieran en la oficina.
+- Los trabajadores que están fuera se conectan por VPN a través de Internet. Reciben una IP de la red 10.8.0.0/24 y entran a la red interna como si estuvieran en la oficina.
 - Las webs y apps de los clientes que ya están publicadas siguen en los servidores en la nube, como dijimos en el Bloc 1.
 - El NAS sale a Internet a través del firewall para enviar cada noche la copia de seguridad a la nube. Así, si hay un incendio, un robo o un ataque de ransomware en la oficina, los datos siguen a salvo fuera.
 
 ## Decisiones técnicas
 
 - Usamos un firewall con tres interfaces en lugar del router del operador, porque un router normal no permite crear una DMZ de verdad ni configurar bien la VPN.
-- Ponemos la DMZ en una red distinta. Así, si atacan el servidor web, el atacante no está dentro de nuestra red interna.
+- Ponemos la DMZ en una red distinta, la 192.168.20.0/24. Así, si atacan el servidor web, el atacante no está dentro de nuestra red interna.
 - Conectamos por cable los equipos que más datos mueven, que son los de Diseño, los portátiles de Desarrollo con su dock, el NAS y los servidores, porque el cable es más rápido y estable que la Wi-Fi.
-- Separamos la Wi-Fi de invitados, porque los clientes que vienen a la oficina no tienen que poder ver nuestros archivos.
+- Separamos la Wi-Fi de invitados en la red 192.168.30.0/24, porque los clientes que vienen a la oficina no tienen que poder ver nuestros archivos.
 
 ## Qué servicios van en la DMZ y por qué
 
