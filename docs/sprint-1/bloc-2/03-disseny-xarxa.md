@@ -4,7 +4,7 @@ En este apartado explicamos cómo será la red de la oficina de Appy Web en Alco
 
 ## Diagrama de red
 
-![Diagrama de red de Appy Web](../../../diagrama-red.png)
+![Diagrama de red de Appy Web](../../../img/sprint-1/diagrama-red.png)
 
 ## Zonas de la red
 

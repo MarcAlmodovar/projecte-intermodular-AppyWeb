@@ -48,10 +48,10 @@ Cada tarjeta tiene un responsable, una descripción de lo que hay que hacer, una
 
 ### Captura del tablero
 
-![Tablero de Trello del Sprint 1](../../../Sprint%201%20trello.png)
+![Tablero de Trello del Sprint 1](../../../img/sprint-1/trello-sprint-1.png)
 
 ### Captura del cronograma
 
-![Cronograma del Sprint 1 en Trello](../../../Spritn%201%20gant.png)
+![Cronograma del Sprint 1 en Trello](../../../img/sprint-1/gantt-sprint-1.png)
 
 Enlace al tablero: https://trello.com/b/3FqRQWGf/sprint-1
