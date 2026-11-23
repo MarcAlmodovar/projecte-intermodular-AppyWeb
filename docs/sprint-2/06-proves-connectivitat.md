@@ -1,1 +1,1 @@
-# 6. Proves de connectivitat i validació
+# 6. Pruebas de conectividad y validación

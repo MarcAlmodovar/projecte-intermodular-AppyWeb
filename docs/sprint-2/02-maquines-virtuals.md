@@ -1,1 +1,1 @@
-# 2. Màquines virtuals i sistemes instal·lats
+# 2. Máquinas virtuales y sistemas instalados

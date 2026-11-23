@@ -1,1 +1,1 @@
-# 3. Configuració de la LAN, la DMZ i l'adreçament
+# 3. Configuración de la LAN, la DMZ y el direccionamiento

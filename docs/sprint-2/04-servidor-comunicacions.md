@@ -1,1 +1,1 @@
-# 4. Servidor de comunicacions i encaminament
+# 4. Servidor de comunicaciones y encaminamiento

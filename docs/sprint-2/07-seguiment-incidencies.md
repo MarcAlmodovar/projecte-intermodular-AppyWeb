@@ -1,1 +1,1 @@
-# 7. Seguiment del sprint i incidències
+# 7. Seguimiento del sprint e incidencias

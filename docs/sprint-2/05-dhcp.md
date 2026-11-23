@@ -1,1 +1,1 @@
-# 5. Servei DHCP
+# 5. Servicio DHCP
