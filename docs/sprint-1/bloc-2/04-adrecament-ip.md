@@ -1,4 +1,4 @@
-# Plan de direccionamiento y nombre de equipos
+# 02. Plan de direccionamiento y nombre de equipos
 Aqui voy a definir las redes de AppyWeb y las direcciones IP de sus equipos. El plan se basa en las necesidades mencionadas en 04-adrecament-ip.md y en los equipos de el bloc 01
 
 ## Redes de la empresa
